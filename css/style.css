@@ -1,10 +1,10 @@
 /********** Template CSS **********/
 
 :root {
-    --primary: #00ff;
+    --primary: #00004D;
     --secondary: #FF6922;
     --light: #EFFDF5;
-    --dark: #0E2E50;
+    --dark: #00004D;
 }
 
 .back-to-top {
@@ -73,6 +73,7 @@
 /*** Navbar ***/
 
 .nav-bar {
+    height: 90px;
     position: relative;
     margin-top: 45px;
     padding: 0 3rem;
