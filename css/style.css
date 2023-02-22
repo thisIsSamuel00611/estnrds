@@ -300,8 +300,29 @@
 /*** Team ***/
 
 .team-item {
+    position: relative;
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
     transition: .5s;
+}
+.teamIt .nerddesc h5{
+    color: #00004D;
+}
+.teamIt:hover .nerddesc h5{
+    color: #fff;
+}
+.teamIt:hover .nerddesc{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00004d7a;
+    margin-top: 0 !important;
+    color: #fff;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    transition: all 1s ease;
 }
 
 .team-item .btn {
