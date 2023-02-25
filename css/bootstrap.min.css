@@ -25,7 +25,7 @@
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
-    --bs-light: #EFFDF5;
+    --bs-light: #87ceeb;
     --bs-dark: #0E2E50;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -229,7 +229,7 @@ sup {
 }
 
 a {
-    color: #00B98E;
+    color: #87ceeb;
     text-decoration: none
 }
 
@@ -2288,8 +2288,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2301,8 +2301,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-    background-color: #00B98E;
-    border-color: #00B98E;
+    background-color: #87ceeb;
+    border-color: #87ceeb;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
 }
 
@@ -2391,7 +2391,7 @@ textarea.form-control-lg {
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background-color: #00B98E;
+    background-color: #87ceeb;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2421,7 +2421,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #00B98E;
+    background-color: #87ceeb;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2854,8 +2854,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .btn-primary:hover {
@@ -2893,8 +2893,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #000;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .btn-secondary {
@@ -3213,14 +3213,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #00B98E;
-    border-color: #00B98E
+    color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .btn-outline-primary:hover {
     color: #000;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .btn-check:focus+.btn-outline-primary,
@@ -3234,8 +3234,8 @@ fieldset:disabled .btn {
 .btn-outline-primary.active,
 .btn-outline-primary.dropdown-toggle.show {
     color: #000;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .btn-check:checked+.btn-outline-primary:focus,
@@ -3248,7 +3248,7 @@ fieldset:disabled .btn {
 
 .btn-outline-primary:disabled,
 .btn-outline-primary.disabled {
-    color: #00B98E;
+    color: #87ceeb;
     background-color: transparent
 }
 
@@ -3534,7 +3534,7 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
-    color: #00B98E;
+    color: #87ceeb;
     text-decoration: none
 }
 
@@ -3895,7 +3895,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #00B98E
+    background-color: #87ceeb
 }
 
 .dropdown-item.disabled,
@@ -3943,7 +3943,7 @@ fieldset:disabled .btn {
 .dropdown-menu-dark .dropdown-item.active,
 .dropdown-menu-dark .dropdown-item:active {
     color: #fff;
-    background-color: #00B98E
+    background-color: #87ceeb
 }
 
 .dropdown-menu-dark .dropdown-item.disabled,
@@ -4085,7 +4085,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #00B98E;
+    color: #87ceeb;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 
@@ -4152,7 +4152,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #00B98E
+    background-color: #87ceeb
 }
 
 .nav-fill>.nav-link,
@@ -4872,7 +4872,7 @@ fieldset:disabled .btn {
 .page-link {
     position: relative;
     display: block;
-    color: #00B98E;
+    color: #87ceeb;
     background-color: #fff;
     border: 1px solid #dee2e6;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
@@ -4906,8 +4906,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .page-item.disabled .page-link {
@@ -5114,7 +5114,7 @@ fieldset:disabled .btn {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #00B98E;
+    background-color: #87ceeb;
     transition: width 0.6s ease
 }
 
@@ -5205,8 +5205,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #87ceeb;
+    border-color: #87ceeb
 }
 
 .list-group-item+.list-group-item {
@@ -6552,7 +6552,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-    color: #00B98E
+    color: #87ceeb
 }
 
 .link-primary:hover,
@@ -6978,7 +6978,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-    border-color: #00B98E !important
+    border-color: #87ceeb !important
 }
 
 .border-secondary {
@@ -7955,7 +7955,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #00B98E !important
+    color: #87ceeb !important
 }
 
 .text-secondary {
@@ -8035,7 +8035,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #EFFDF5 !important
+    background-color: #87ceeb !important
 }
 
 .bg-dark {
@@ -8043,7 +8043,7 @@ fieldset:disabled .btn {
 }
 
 .bg-body {
-    background-color: #EFFDF5 !important
+    background-color: #87ceeb !important
 }
 
 .bg-white {

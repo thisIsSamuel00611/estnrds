@@ -3,7 +3,7 @@
 :root {
     --primary: #00004D;
     --secondary: #FF6922;
-    --light: #EFFDF5;
+    --light: #87ceeb;
     --dark: #00004D;
 }
 
@@ -50,7 +50,8 @@
 .my-item .description {
     height: 100%;
     width: 100%;
-    padding: 30px;
+    padding: 100px 30px !important;
+    font-size: 13px;
     display: flex;
     flex-direction: column;
     text-align: right;
