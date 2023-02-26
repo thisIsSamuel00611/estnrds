@@ -247,7 +247,7 @@
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-    color: #DDDDDD;
+    color: #fff;
 }
 
 
