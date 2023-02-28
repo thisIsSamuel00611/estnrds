@@ -52,3 +52,24 @@ function showDivs2(n) {
     x[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " w3-opacity-off";
 }
+
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+var i = 0;
+var txt = 'Find A Perfect Home To Live With Your Family'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("bannerTxt").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
