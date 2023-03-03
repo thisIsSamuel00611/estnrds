@@ -53,6 +53,30 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
+     $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: false,
+        margin: 15,
+        nav: true,
+        navText : [
+            '<i class="fa fa-angle-left"></i>',
+            '<i class="fa fa-angle-right"></i>'
+        ],
+        dots: false,
+        slideBy: 2,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    });
 
 
     // Testimonials carousel
