@@ -6,7 +6,12 @@
   --light: #87ceeb !important;
   --dark: #00004d !important;
 }
-
+::selection{
+  color: #fff;
+  background-color: #00004d;
+  font-weight: bold;
+  transition: all .3s ease;
+}
 .back-to-top {
   position: fixed;
   display: none;
