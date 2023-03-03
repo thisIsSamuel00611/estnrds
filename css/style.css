@@ -443,7 +443,7 @@
   background-color: #00004d;
   color: #fff;
   font-weight: bold;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   transition: all 0.3s ease;
 }
 .teamSec .owl-carousel .owl-nav .owl-prev:hover,
@@ -459,11 +459,11 @@
 }
 
 .teamIt .nerddesc h5 {
-  color: #fff !important;
+  color: #00004d !important;
 }
 
 .teamIt:hover .nerddesc h5 {
-  color: #fff;
+  color: #fff !important;
 }
 
 .teamIt:hover .nerddesc {
