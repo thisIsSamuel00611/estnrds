@@ -23,40 +23,49 @@
   z-index: 99999;
 }
 /* Resonsive side nav */
-
+.gainWidth {
+  width: 200px !important;
+}
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  z-index: 99999;
+  top: 75px;
+  right: 0;
+  background-color: var(--light);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
-
+.sidenav .links {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.sidenav .links:hover{
+    background-color: #00004d;
+    color: #fff;
+    transition: all .3s ease;
+    padding-left: 30px !important;
+}
+.sidenav a strong{
+  margin-right: 20px;
+}
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 25px 8px 8px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+  font-size: 16px;
+  color: #00004d;
+  display: flex;
+  /* justify-content: center; */
   transition: 0.3s;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -422,21 +431,24 @@
   left: 0;
   z-index: 999;
 }
-.teamSec .owl-carousel .owl-nav .owl-prev, .owl-next{
-    padding: 6px 15px;
-    border-radius: 100%;
-    background-color: #00004d;
-    color: #fff;
-    font-weight: bold;
-    transition: all .3s ease;
+.teamSec .owl-carousel .owl-nav .owl-prev,
+.owl-next {
+  padding: 6px 15px;
+  border-radius: 100%;
+  background-color: #00004d;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
-.teamSec .owl-carousel .owl-nav .owl-prev:hover, .owl-next:hover{
-    transform: scale(1.1);
-    transition: all .3s ease;
+.teamSec .owl-carousel .owl-nav .owl-prev:hover,
+.owl-next:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
-.teamSec .owl-carousel .owl-nav .owl-prev.disabled, .owl-next.disabled{
-    background-color: #0c0c47aa !important;
-    transition: .3s all ease;
+.teamSec .owl-carousel .owl-nav .owl-prev.disabled,
+.owl-next.disabled {
+  background-color: #0c0c47aa !important;
+  transition: 0.3s all ease;
 }
 
 .teamIt .nerddesc h5 {

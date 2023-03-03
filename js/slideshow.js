@@ -55,12 +55,12 @@ function showDivs2(n) {
 
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").classList.toggle('gainWidth')
 }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+// function closeNav() {
+//     document.getElementById("mySidenav").style.width = "0";
+// }
 
 var i = 0;
 var txt = 'Find A Perfect Home To Live With Your Family'; /* The text */
