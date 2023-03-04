@@ -58,10 +58,18 @@ function openNav() {
     document.getElementById("mySidenav").classList.toggle('gainWidth')
 }
 
+function closeNav() {
+    document.getElementById("mySidenav").style.height = '0 !important';
+}
 // function closeNav() {
 //     document.getElementById("mySidenav").style.width = "0";
 // }
-
+// function showIconBar() {
+//     document.querySelector('.icon-bar').classList.toggle('invisible');
+//     // document.querySelector('.icon-bar').style.transition = '0.3s'
+// }
+// setTimeout(showIconBar, 3000)
+// document.addEventListener('scroll', showIconBar);
 var i = 0;
 var txt = 'Find A Perfect Home To Live With Your Family'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
@@ -91,3 +99,16 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+// var prevScrollPos = window.pageYOffset;
+
+// function showHide() {
+//     // var currentScrollPos = window.pageYOffset;
+//     if (window.addEventListener('scroll', showHide)) {
+//         document.querySelector('.icon-bar').style.display = 'block';
+//     } else {
+//         document.querySelector('.icon-bar').style.display = 'none';
+//     }
+//     // prevScrollPos = currentScrollPos;
+// }
+// setTimeout(showHide, 1000)

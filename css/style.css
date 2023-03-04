@@ -1,15 +1,15 @@
 /********** Template CSS **********/
 
 :root {
-    --primary: #00004d !important;
+    --primary: #000041 !important;
     --secondary: #ff6922 !important;
-    --light: #87ceeb !important;
-    --dark: #00004d !important;
+    --light: #a012bc !important;
+    --dark: #000041 !important;
 }
 
 ::selection {
     color: #fff;
-    background-color: #00004d;
+    background-color: #000041;
     font-weight: bold;
     transition: all .3s ease;
 }
@@ -32,12 +32,20 @@
     color: #fff;
 }
 
+.whatsapp-icon:hover {
+    color: #fff;
+}
+
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 
+.invisible {
+    z-index: -1;
+}
+
 .icon-bar {
     position: fixed;
-    top: 50%;
+    bottom: 0;
     right: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -66,33 +74,33 @@
 }
 
 .facebook {
-    background: #3B5998;
+    background: #00004d;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .twitter {
-    background: #55ACEE;
+    background: #00004d;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .instagram {
-    background: #ac02ac !important;
+    background: #00004d !important;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .linkedin {
-    background: #007bb5;
+    background: #00004d;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .youtube {
-    background: #bb0000;
+    background: #00004d;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 #myModal {
@@ -119,7 +127,7 @@
     top: 75px;
     right: 0;
     left: 0;
-    background-color: #87cfebe7;
+    background-color: #a012bcf1;
     overflow-x: hidden;
     transition: 0.5s;
     /* padding-top: 60px; */
@@ -144,6 +152,7 @@
     border-top: 1px solid #fff;
     text-align: left;
     align-items: center;
+    color: #fff;
 }
 
 .sidenav .link {
@@ -158,7 +167,7 @@
 }
 
 .sidenav .links .fa {
-    color: #00004d;
+    color: #fff;
     padding: 10px;
     font-size: 20px;
 }
@@ -166,7 +175,7 @@
 .sidenav .links:hover,
 .sidenav .link:hover {
     background-color: #fff !important;
-    color: #00004d;
+    color: #000041;
     transition: all .3s ease;
     padding-left: 30px !important;
 }
@@ -175,7 +184,7 @@
     padding: 20px;
     text-decoration: none;
     font-size: 16px;
-    color: #00004d;
+    color: #000041;
     display: flex;
     /* justify-content: center; */
     transition: 0.3s;
@@ -269,7 +278,7 @@
     position: absolute;
     top: 0;
     z-index: 10;
-    background-color: #00004d7a !important;
+    background-color: #0000417a !important;
     /* color: #FFFFFF; */
     visibility: hidden;
     transition: all 0.3s ease-out;
@@ -557,25 +566,30 @@
 }
 
 .teamSec .owl-carousel .owl-nav {
-    transform: translateY(-50%);
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    top: 50%;
-    position: absolute;
-    left: 0;
-    z-index: 999;
 }
 
 .teamSec .owl-carousel .owl-nav .owl-prev,
 .teamSec .owl-carousel .owl-nav .owl-next {
     padding: 10px 15px;
     border-radius: 100%;
-    background-color: #00004d;
+    background-color: #000041;
     color: #fff;
     font-weight: bold;
     /* transform: scale(1.2); */
     transition: all 0.3s ease;
+    position: absolute;
+    z-index: 999999;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.teamSec .owl-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+.teamSec .owl-carousel .owl-nav .owl-prev {
+    left: 0;
 }
 
 .teamSec .owl-carousel .owl-nav .owl-prev:hover,
@@ -592,7 +606,7 @@
 }
 
 .teamIt .nerddesc h5 {
-    color: #00004d !important;
+    color: #000041 !important;
 }
 
 .teamIt:hover .nerddesc h5 {
@@ -604,7 +618,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #00004d7a !important;
+    background-color: #0000417a !important;
     margin-top: 0 !important;
     color: #fff;
     visibility: visible;
@@ -691,7 +705,8 @@
 /*** Footer ***/
 
 .footer {
-    background-color: #00004d !important;
+    background-color: #000041 !important;
+    color: #fff !important;
 }
 
 .footer .btn.btn-social {
@@ -721,6 +736,7 @@
     font-weight: normal;
     text-transform: capitalize;
     transition: 0.3s;
+    color: #fff !important;
 }
 
 .footer .btn.btn-link::before {
@@ -738,7 +754,7 @@
 
 .footer .form-control {
     border-color: rgba(255, 255, 255, 0.5);
-    color: #00004d;
+    color: #000041;
 }
 
 .footer .form-control::placeholder {
@@ -747,7 +763,7 @@
 
 .form-control:focus {
     background-color: #fff !important;
-    color: #00004d !important;
+    color: #000041 !important;
 }
 
 .footer .copyright {
