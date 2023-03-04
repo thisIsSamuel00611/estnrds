@@ -1,41 +1,41 @@
-(function ($) {
+(function($) {
     "use strict";
 
     // Spinner
-    var spinner = function () {
-        setTimeout(function () {
+    var spinner = function() {
+        setTimeout(function() {
             if ($('#spinner').length > 0) {
                 $('#spinner').removeClass('show');
             }
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
 
     // Sticky Navbar
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         if ($(this).scrollTop() > 45) {
             $('.nav-bar').addClass('sticky-top');
         } else {
             $('.nav-bar').removeClass('sticky-top');
         }
     });
-    
-    
+
+
     // Back to top button
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
         }
     });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+    $('.back-to-top').click(function() {
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -47,35 +47,35 @@
         items: 1,
         dots: true,
         loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
-     $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: false,
-        margin: 15,
         nav: true,
-        navText : [
+        navText: [
             '<i class="fa fa-arrow-left"></i>',
             '<i class="fa fa-arrow-right"></i>'
-        ],
-        dots: false,
-        slideBy: 2,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 3,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
+        ]
+    });
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+            loop: false,
+            margin: 15,
+            nav: true,
+            navText: [
+                '<i class="fa fa-arrow-left"></i>',
+                '<i class="fa fa-arrow-right"></i>'
+            ],
+            dots: false,
+            slideBy: 2,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 3,
+                },
+                1000: {
+                    items: 4,
+                },
+            },
+        });
     });
 
 
@@ -86,20 +86,19 @@
         margin: 24,
         dots: false,
         loop: true,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="fa fa-arrow-left"></i>',
             '<i class="fa fa-arrow-right"></i>'
         ],
         responsive: {
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            992:{
-                items:2
+            992: {
+                items: 2
             }
         }
     });
-    
-})(jQuery);
 
+})(jQuery);
